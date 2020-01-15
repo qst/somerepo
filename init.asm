@@ -1,4 +1,5 @@
 
+# Switch from Real Mode to Protected Mode
 lgdt gdtdesc
 movl %cr0, %eax
 orl  $CR0_PE_ON, %eax
