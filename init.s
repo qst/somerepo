@@ -1,7 +1,7 @@
 
 # Start in 16-bit Real Mode, this code is loaded
 # from the first sector of the fixed drive into
-# physical adress 0x7C00. It begins executing in 
+# physical address 0x7C00. It begins executing in 
 # Real Mode with %cs = 0 and %ip = 7C00h.
 
 .equ PMODE_CSEG, 0x08   # kernel code segment alias
